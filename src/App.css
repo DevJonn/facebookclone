@@ -6,7 +6,7 @@
 }
 
 /* Estilos específicos para telas de celular (largura máxima de 767px) */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
       font-size: 15px;
   }
@@ -19,13 +19,54 @@
   }
 }
 
-/* Estilos específicos para telas muito grandes (largura mínima de 1200px) */
-@media (min-width: 1200px) {
-  body {
-      font-size: 22px;
-  }
-}
-
 body{
   background-color: #ffffff;
 }
+
+.header{
+  background-color: #cdcdcf;
+  padding: 10px 0;
+  display: flex;
+}
+
+.headerLeft{
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+}
+
+.logo-fb svg{
+  color:#0866FF;
+  cursor: pointer;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+
+.search-fb{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  text-align: center;
+  line-height: 50px;
+}
+.search-fb svg{
+  color:#606770;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+.menu-fb{
+  cursor: pointer;
+  margin-left: 50px;
+  position: relative;
+  padding: 8px 10px;
+}
+.menu-fb:hover{
+  background-color: #ffffff;
+}
+.menu-fb svg{
+  font-size: 25px;
+}
+
