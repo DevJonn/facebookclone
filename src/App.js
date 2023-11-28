@@ -7,14 +7,27 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-
-        
         <div className='headerLeft'>
 
+          <div className='logo-fb'>
+            <FaFacebook/>
+          </div>
+
+          <div className='search-fb'>
+            <FaSearch/>
+          </div>
+
+          <div className='menu-fb'>
+            <FaAlignJustify/>
+          </div>
+
         </div>
+
+
       <div className='headerRigth'>
-
-
+        <div className='plus-btn'>
+            +
+        </div>
       </div>
 
 
