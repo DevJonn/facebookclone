@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+/* Estilos específicos para telas de celular (largura máxima de 767px) */
+@media (max-width: 400px) {
+  body {
+      font-size: 15px;
+  }
+}
+
+/* Estilos específicos para telas maiores (largura mínima de 1024px) */
+@media (min-width: 1024px) {
+  body {
+      font-size: 20px;
+  }
+}
+
+/* Estilos específicos para telas muito grandes (largura mínima de 1200px) */
+@media (min-width: 1200px) {
+  body {
+      font-size: 22px;
+  }
+}
+
+body{
+  background-color: #ffffff;
+}
