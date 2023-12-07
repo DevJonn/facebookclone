@@ -10,7 +10,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      </div>  
+        <div className='storiesCard'>
+          <p>Jonathan Torres</p>
+        </div>
+    </div>  
   );
 }
 
