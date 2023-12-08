@@ -4,7 +4,7 @@ import Header from './Header';
 
 //iniciar: C:\Users\jonat\OneDrive\Documentos\GitHub\DankiCode-FacebookClone\Facebook-Clone\facebookclone>npm start ou no proprio terminal 'npm start'.
 
-//aula terminada em 24:50
+//aula terminada em 41:00
 
 function App() {
   return (
@@ -14,26 +14,24 @@ function App() {
             <div className='storiesCard' style={{backgroundImage: `url(${danki_bg})`}}>
               <p>Jonathan Torres</p>
             </div>
-        </div>
-        <div className='stories'>
+        
+        
             <div className='storiesCard' style={{backgroundImage: `url(${danki_bg})`}}>
               <p>Jonathan Torres</p>
             </div>
-        </div>
-        <div className='stories'>
+
             <div className='storiesCard' style={{backgroundImage: `url(${danki_bg})`}}>
               <p>Jonathan Torres</p>
             </div>
-        </div>
-        <div className='stories'>
+
             <div className='storiesCard' style={{backgroundImage: `url(${danki_bg})`}}>
               <p>Jonathan Torres</p>
             </div>
-        </div>
-        <div className='stories'>
+
             <div className='storiesCard' style={{backgroundImage: `url(${danki_bg})`}}>
               <p>Jonathan Torres</p>
             </div>
+
         </div>
     </div>  
   );
