@@ -10,8 +10,22 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <div className='storiesCard'>
-          <p>Jonathan Torres</p>
+        <div className='stories'>
+            <div className='storiesCard' style={{backgroundImage: 'url(${danki_bg})'}}>
+              <p>Jonathan Torres</p>
+            </div>
+            <div className='storiesCard' style={{backgroundImage: 'url(${danki_bg})'}}>
+              <p>Jonathan Torres</p>
+            </div>
+            <div className='storiesCard' style={{backgroundImage: 'url(${danki_bg})'}}>
+              <p>Jonathan Torres</p>
+            </div>
+            <div className='storiesCard' style={{backgroundImage: 'url(${danki_bg})'}}>
+              <p>Jonathan Torres</p>
+            </div>
+            <div className='storiesCard' style={{backgroundImage: 'url(${danki_bg})'}}>
+              <p>Jonathan Torres</p>
+            </div>
         </div>
     </div>  
   );

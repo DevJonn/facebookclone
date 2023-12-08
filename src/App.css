@@ -87,3 +87,13 @@ body{
   font-size: 28px;
   cursor: pointer;
 }
+
+.stories{
+  display: flex;
+  margin: 10px 0;
+}
+
+.storiesCard{
+  width: 19%;
+  margin-right: 1%;
+}

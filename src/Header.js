@@ -13,8 +13,7 @@ export default function(){
                 <div className='menu-fb'>
                 <FaAlignJustify/>
                 </div>
-            </div>
-            
+            </div>           
             <div className='headerRigth'>
                 <div className='plus-btn'>
                     +
