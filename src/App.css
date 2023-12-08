@@ -88,12 +88,21 @@ body{
   cursor: pointer;
 }
 
+
 .stories{
   display: flex;
   margin: 10px 0;
 }
-
 .storiesCard{
   width: 19%;
   margin-right: 1%;
+  padding-top: 25%;
+  background-position: center;
+  background-size: cover;
 }
+.storiesCard p{
+  color: #000000;
+  font-size: 14px;
+  padding: 10px;
+}
+
