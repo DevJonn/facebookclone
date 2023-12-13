@@ -90,14 +90,10 @@ body{
 
 .stories{
   display: flex;
-  width: 100%;
-  padding: 1%;
-  margin: 15px 0;
-  overflow: 100%; 
-  border-style:ridge;
+  margin: 10px 0;
 }
 .storiesCard{
-  width: 100%;
+  width: 19%;
   display: block;
   height: auto;
   margin-right: 1%;
@@ -111,6 +107,17 @@ body{
   color:#0866FF;
   font-size: 14px;
   padding: 10px;
+}
+
+
+.feedForm{
+  padding: 20px;
+}
+.feedForm img{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
 }
 
 
