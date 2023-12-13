@@ -90,22 +90,27 @@ body{
 
 .stories{
   display: flex;
+  width: 100%;
+  padding: 1%;
   margin: 15px 0;
-  overflow: auto;
+  overflow: 100%; 
+  border-style:ridge;
 }
-.storiesCard {
-  width: 19%;
-  flex: 19%;
+.storiesCard{
+  width: 100%;
+  display: block;
+  height: auto;
   margin-right: 1%;
   margin-left: 1%;
   padding-top: 25%;
-  background-position: center;
+  background-position:center;
   background-size: cover;
-  box-sizing: border-box;
+  border-radius: 10px;
 }
 .storiesCard p{
-  color: #000000;
+  color:#0866FF;
   font-size: 14px;
   padding: 10px;
 }
+
 
